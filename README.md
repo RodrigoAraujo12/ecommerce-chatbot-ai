@@ -69,7 +69,7 @@ Sistema Novo/
 └── README.md
 ```
 
-## 🎯 Como Fun3+**
+## 🎯 Como Funciona**
 - **Node.js 18+** e npm/yarn/pnpm
 - Conta no **Google AI Studio** (para Gemini API key - gratuita
 O Gemini analisa a mensagem e decide:
@@ -191,8 +191,6 @@ npm run dev
 
 ### Implementações Pendentes
 
-- [ ] Integrar OpenAI API no backend (`ai_service.py`)
-- [ ] Implementar Function Calling para chamadas de API
 - [ ] Conectar com APIs de e-commerce (Shopify, WooCommerce)
 - [ ] Adicionar autenticação de usuários
 - [ ] Features Implementadas
@@ -214,14 +212,6 @@ npm run dev
 - [x] Fallback de busca (específico → genérico)
 - [x] Tratamento de erros robusto
 
-### 🚧 Próximos Passos (Opcionais)
-- [ ] Deploy (Vercel + Railway)
-- [ ] Histórico de conversas (localStorage)
-- [ ] Testes automatizados
-- [ ] Analytics básico
-- [ ] Rate limiting
-- [ ] Múltiplas conversas (tabs)
-- [ ] Export de conversas (PDF/TXT) - use como quiser!
 
 ## 📧 Contato
 
@@ -229,8 +219,8 @@ Dúvidas? Abra uma issue ou entre em contato.
 
 ---
 
-**Feito com ❤️ usando as tecnologias mais modernas**
-Contribuições são bem-vindas! Sinta-se à vontade para:
+**Contribuições são bem-vindas! Sinta-se à vontade para:**
+
 - Reportar bugs
 - Sugerir features
 - Enviar pull requests
@@ -247,5 +237,3 @@ MIT License - use como quiser!
 - DummyJSON & FakeStoreAPI
 
 ---
-
-**Desenvolvido com ❤️ usando as melhores tecnologias do mercado**
