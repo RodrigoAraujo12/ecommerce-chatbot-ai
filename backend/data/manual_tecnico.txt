@@ -1,0 +1,89 @@
+# MANUAL TÉCNICO DO CONSUMIDOR DE TECNOLOGIA
+
+## SMARTPHONES
+
+### Samsung Galaxy S8
+O Samsung Galaxy S8 é um smartphone premium lançado em 2017. Possui tela Super AMOLED de 5.8 polegadas com resolução Quad HD+ (2960x1440). O processador é o Exynos 8895 (ou Snapdragon 835 em algumas regiões) com 4GB de RAM. A câmera principal tem 12MP com abertura f/1.7 e estabilização óptica. A bateria é de 3000mAh com carregamento rápido e wireless. Possui leitor de impressão digital, resistência à água IP68, e suporta realidade virtual com o Gear VR. O preço atual varia entre R$1.500 a R$2.500 em mercados de usados.
+
+### iPhone 13
+O iPhone 13 é um smartphone da Apple lançado em 2021. Possui tela Super Retina XDR OLED de 6.1 polegadas. O chip A15 Bionic é extremamente poderoso, com 4GB de RAM. Sistema de câmera dupla de 12MP com modo noturno avançado e modo cinemático para vídeos. Bateria com duração de até 19 horas de reprodução de vídeo. Resistência à água IP68. Disponível em versões de 128GB, 256GB e 512GB. Preço entre R$4.000 e R$6.000 dependendo da capacidade.
+
+## NOTEBOOKS
+
+### Notebook para Programação
+Para programação, recomenda-se no mínimo: processador Intel Core i5 ou AMD Ryzen 5 de 10ª geração ou superior, 16GB de RAM (8GB é o mínimo), SSD de 256GB ou mais (SSD NVMe é mais rápido que SATA), tela Full HD (1920x1080) de 14 a 15.6 polegadas. Para desenvolvimento web, esses requisitos são suficientes. Para desenvolvimento mobile com emuladores ou machine learning, recomenda-se 32GB de RAM e processadores i7/Ryzen 7.
+
+### Notebook Gamer
+Notebooks gamer precisam de GPU dedicada. Para jogos em 1080p médio/alto: GTX 1650 ou RTX 3050 (mínimo), 16GB RAM, processador i5/Ryzen 5 de 11ª geração ou superior, SSD de 512GB. Para jogos em ultra e futureproofing: RTX 3060 ou superior, 32GB RAM, i7/Ryzen 7. Tela de 144Hz melhora significativamente a experiência. Preço médio: R$4.500 (básico) a R$10.000+ (high-end).
+
+## COMPONENTES
+
+### SSD vs HDD
+SSD (Solid State Drive) é 5-10x mais rápido que HDD tradicional. SSD NVMe é ainda mais rápido que SSD SATA (até 7x). Para sistema operacional e programas, sempre use SSD. HDD serve apenas para armazenamento de arquivos grandes e backups devido ao custo por GB mais baixo. 256GB é mínimo para SSD de sistema, 512GB é recomendado.
+
+### RAM: 8GB vs 16GB vs 32GB
+8GB: Mínimo para uso básico (navegação, Office, streaming). Pode travar com muitas abas abertas.
+16GB: Ideal para multitarefa, programação, edição de fotos leve, jogos modernos. Recomendado para a maioria.
+32GB: Para edição de vídeo 4K, máquinas virtuais, development pesado, jogos + streaming simultâneo, modelagem 3D.
+
+### Processadores Intel vs AMD
+Intel: Melhor desempenho single-core (importante para jogos). Série i5 é custo-benefício, i7 para performance, i9 para extremo.
+AMD Ryzen: Melhor custo-benefício, mais núcleos pelo mesmo preço. Excelente para multitarefa e produtividade. Ryzen 5 compete com i5, Ryzen 7 com i7.
+Para programação: Ambos são ótimos, AMD oferece mais núcleos por preço.
+
+## MONITORES
+
+### Resolução e Tamanho
+Full HD (1920x1080): Padrão, ideal para 24". Barato e roda bem em qualquer GPU.
+2K/QHD (2560x1440): Ótimo para 27", mais nítido para trabalho e jogos. Precisa GPU melhor.
+4K (3840x2160): Excelente para edição, design, produtividade. Para jogos, precisa GPU top (RTX 3080+).
+
+### Taxa de Atualização
+60Hz: Padrão, suficiente para trabalho e jogos casuais.
+144Hz: Grande diferença em jogos, mais fluido. Recomendado para FPS e competitivo.
+240Hz+: Para jogadores profissionais. Diferença menor comparado a 144Hz.
+
+## PERGUNTAS FREQUENTES
+
+### Vale a pena comprar usado?
+Smartphones: Sim, se for de fonte confiável e com garantia mínima. Economia de 30-50%.
+Notebooks: Cuidado com bateria gasta. Verificar condição física e histórico de reparos.
+Componentes: SSD e RAM podem vir usados. GPU usada de mineração evitar.
+
+### Quando trocar de celular?
+Sinais: Bateria dura menos de meio dia, travamentos frequentes, sem atualizações de segurança há mais de 2 anos, câmera não atende mais necessidades, armazenamento sempre cheio mesmo após limpeza.
+
+### Melhor época para comprar?
+Black Friday (novembro): Descontos reais em eletrônicos, até 40% off.
+Janeiro: Liquidação pós-festas, estoque antigo com desconto.
+Lançamentos: Modelos anteriores ficam mais baratos quando novo modelo é anunciado.
+
+## GARANTIA E SUPORTE
+
+### Garantia Legal
+Todo produto tem 90 dias de garantia legal no Brasil. Defeitos de fabricação devem ser cobertos.
+
+### Garantia Estendida
+Fabricantes oferecem 1 ano adicional. Avalie custo-benefício: para produtos caros (>R$3000) pode valer a pena.
+
+### Direito de Arrependimento
+Compras online: 7 dias para devolução sem justificativa (produto deve estar lacrado/intacto).
+
+## FORMAS DE PAGAMENTO
+
+### À Vista
+Geralmente tem desconto de 5-10%. PIX tem se tornado a forma mais comum com desconto.
+
+### Parcelado
+Cartão de crédito: Até 12x sem juros em muitas lojas para valores acima de R$1000.
+Carnê/Boleto: Evitar, costuma ter juros embutidos.
+
+## ENTREGA
+
+### Prazo Médio
+Capitais: 3-7 dias úteis
+Interior: 7-15 dias úteis
+Produtos importados: 30-60 dias
+
+### Frete Grátis
+Comum em compras acima de R$200-500, dependendo da loja e região.
