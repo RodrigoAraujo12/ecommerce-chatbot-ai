@@ -6,6 +6,8 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Send, Bot, User, Moon, Sun, Sparkles } from "lucide-react";
 import ProductCard from "./product-card";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 type Product = {
   id: string;
@@ -188,7 +190,19 @@ export default function ChatInterface() {
                       : "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border border-gray-200 dark:border-gray-600 rounded-tl-none"
                   }`}
                 >
-                  {message.content}
+                  <div className="prose prose-sm dark:prose-invert max-w-none 
+                    prose-p:my-1 prose-p:leading-relaxed
+                    prose-headings:my-2 prose-headings:font-semibold
+                    prose-ul:my-2 prose-ul:pl-4 
+                    prose-ol:my-2 prose-ol:pl-4
+                    prose-li:my-0.5
+                    prose-strong:font-bold prose-strong:text-inherit
+                    prose-code:bg-gray-100 prose-code:dark:bg-gray-700 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:text-sm
+                    prose-a:text-blue-500 prose-a:no-underline hover:prose-a:underline">
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                      {message.content}
+                    </ReactMarkdown>
+                  </div>
                 </div>
                 {mounted && message.timestamp && (
                   <span className={`text-xs text-gray-400 dark:text-gray-500 px-2 ${
