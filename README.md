@@ -1,42 +1,104 @@
-# E-commerce Support Chatbot 🤖
+<div align="center">
 
-Assistente de atendimento inteligente para e-commerce com IA, RAG e busca de produtos em tempo real.
+# 🤖 E-commerce Support Chatbot
+
+### Assistente de atendimento inteligente para e-commerce com IA, RAG e busca de produtos em tempo real
+
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_DB-FF6F00?style=for-the-badge)](https://www.trychroma.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+[🚀 Demo](#-demonstração) • [✨ Funcionalidades](#-funcionalidades) • [🛠️ Instalação](#️-instalação) • [📚 Documentação](#-arquitetura)
+
+</div>
+
+---
+
+## 📋 Sobre o Projeto
+
+Um chatbot completo de atendimento ao cliente para e-commerce que combina **Inteligência Artificial**, **RAG (Retrieval Augmented Generation)** e **busca inteligente de produtos**. O sistema é capaz de responder perguntas técnicas consultando uma base de conhecimento, buscar produtos em tempo real e manter conversas naturais com os clientes.
+
+### 🎯 Problema Resolvido
+
+- **Atendimento 24/7** sem necessidade de operadores humanos
+- **Respostas técnicas precisas** baseadas em documentação real
+- **Busca inteligente de produtos** com compreensão de linguagem natural
+- **Experiência moderna** com interface responsiva e dark mode
+
+---
 
 ## ✨ Funcionalidades
 
-- 🤖 **Chat conversacional** com Google Gemini AI (temperatura 0.2 para precisão)
-- 📚 **RAG (Retrieval Augmented Generation)** com ChromaDB para perguntas técnicas
-- 🛍️ **Busca inteligente de produtos** em APIs públicas (DummyJSON, FakeStoreAPI)
-- 🎨 **Interface moderna** com glassmorphism, dark mode e animações
-- 💬 **Chips de sugestões** para facilitar interação
-- 🌐 **Detecção de intenção** conversacional (não apenas keywords)
-- 🇧🇷 **Suporte em português** com tradução automática de termos
-- 📱 **Totalmente responsiva** para mobile, tablet e desktop
-- 🎯 **Cards de produtos** modernos com imagens, preços e links
+### 🤖 Inteligência Artificial
+- ✅ Chat conversacional com **Google Gemini 2.5 Flash**
+- ✅ Temperatura 0.2 para respostas precisas e consistentes
+- ✅ Detecção automática de intenção (não apenas keywords)
+- ✅ Suporte completo em português
+
+### 📚 RAG (Retrieval Augmented Generation)
+- ✅ Base de conhecimento técnico com ChromaDB
+- ✅ Busca vetorial semântica para contexto relevante
+- ✅ Embeddings multilíngues (paraphrase-multilingual-MiniLM-L12-v2)
+- ✅ Respostas baseadas em documentação real
+
+### 🛍️ Busca de Produtos
+- ✅ Integração com múltiplas APIs (DummyJSON, FakeStoreAPI)
+- ✅ Extração inteligente de parâmetros (produto, preço máximo)
+- ✅ Tradução automática PT→EN para melhor busca
+- ✅ Conversão de moedas (USD→BRL) em tempo real
+- ✅ Fallback para termos genéricos
+
+### 🎨 Interface Moderna
+- ✅ Design glassmorphism com animações suaves
+- ✅ Dark mode nativo
+- ✅ Chips de sugestões interativos
+- ✅ Cards de produtos elegantes com imagens
+- ✅ Totalmente responsiva (mobile, tablet, desktop)
+- ✅ Indicadores de digitação e loading states
+
+---
 
 ## 🚀 Tech Stack
 
+<div align="center">
+
 ### Backend
-- **FastAPI** - Framework Python assíncrono
-- **Python 3.13.11** com type hints
-- **Google Gemini API** (gemini-2.5-flash) - IA conversacional
-- **ChromaDB** - Vector database para RAG
-- **Sentence Transformers** - Embeddings multilíngues (paraphrase-multilingual-MiniLM-L12-v2)
-- **HTTPX** - Cliente HTTP assíncrono
-- **DummyJSON & FakeStoreAPI** - APIs públicas de produtos
+
+| Tecnologia | Descrição |
+|------------|-----------|
+| **FastAPI** | Framework Python assíncrono para APIs REST |
+| **Python 3.10+** | Linguagem principal com type hints |
+| **Google Gemini API** | Modelo de IA conversacional (gemini-2.5-flash) |
+| **ChromaDB** | Vector database para RAG |
+| **Sentence Transformers** | Geração de embeddings multilíngues |
+| **HTTPX** | Cliente HTTP assíncrono |
 
 ### Frontend
-- **Next.js 15** - React framework com App Router
-- **TypeScript** - Tipagem estática completa
-- **Tailwind CSS** - Estilização utility-first com dark mode
-- **Shadcn/ui** - Componentes UI modernos e acessíveis
-- **Lucide Icons** - Ícones SVG otimizados
 
-### IA & RAG
-- **Google Gemini 2.5 Flash** - Modelo de linguagem
-- **ChromaDB** - Armazenamento vetorial
-- **Sentence Transformers** - Geração de embeddings
-- **Vector Similarity Search** - Busca semântica de contexto
+| Tecnologia | Descrição |
+|------------|-----------|
+| **Next.js 15** | React framework com App Router |
+| **TypeScript** | Tipagem estática para JavaScript |
+| **Tailwind CSS** | Framework CSS utility-first |
+| **Shadcn/ui** | Componentes UI acessíveis |
+| **Lucide Icons** | Biblioteca de ícones SVG |
+
+### IA & Machine Learning
+
+| Componente | Função |
+|------------|--------|
+| **Google Gemini 2.5** | Processamento de linguagem natural |
+| **ChromaDB** | Armazenamento e busca vetorial |
+| **Sentence-BERT** | Embeddings semânticos |
+| **RAG Pipeline** | Recuperação e geração aumentada |
+
+</div>
+
+---
 
 ## 📁 Estrutura do Projeto
 
@@ -69,36 +131,101 @@ Sistema Novo/
 └── README.md
 ```
 
-## 🎯 Como Funciona**
-- **Node.js 18+** e npm/yarn/pnpm
-- Conta no **Google AI Studio** (para Gemini API key - gratuita
-O Gemini analisa a mensagem e decide:
+## 🎯 Arquitetura
+
+<div align="center">
+
+```
+┌─────────────┐
+│   Cliente   │
+│  (Browser)  │
+└──────┬──────┘
+       │
+       ▼
+┌─────────────────────┐
+│   Next.js Frontend  │
+│  • React Components │
+│  • Tailwind CSS     │
+│  • TypeScript       │
+└──────────┬──────────┘
+           │
+           ▼ (HTTP/REST)
+┌────────────────────────────┐
+│      FastAPI Backend       │
+│ ┌────────────────────────┐ │
+│ │    AI Service          │ │
+│ │  (Gemini 2.5 Flash)    │ │
+│ └────┬─────────────┬─────┘ │
+│      │             │        │
+│      ▼             ▼        │
+│  ┌────────┐   ┌─────────┐  │
+│  │  RAG   │   │ Product │  │
+│  │Service │   │ Service │  │
+│  └───┬────┘   └────┬────┘  │
+│      │             │        │
+└──────┼─────────────┼────────┘
+       │             │
+       ▼             ▼
+┌────────────┐  ┌──────────┐
+│ ChromaDB   │  │ External │
+│ (Vectors)  │  │   APIs   │
+└────────────┘  └──────────┘
+```
+
+</div>
+
+### 🔄 Fluxo de Funcionamento
+
+#### 1. **Detecção de Intenção**
+O Gemini analisa a mensagem do usuário e decide:
 - **Pergunta técnica?** → Usa RAG (consulta manual técnico)
 - **Busca de produto?** → Chama APIs de produtos
-- **Conversa normal?** → Resposta conversacional
+- **Conversa normal?** → Resposta conversacional natural
 
-### 2. RAG (Retrieval Augmented Generation)
-- Manual técnico dividido em chunks
-- Embeddings gerados com modelo multilíngue
-- ChromaDB faz busca vetorial (similaridade)
-- Top 3 trechos mais relevantes vão pro Gemini
-- Resposta baseada em conhecimento real
+#### 2. **RAG (Retrieval Augmented Generation)**
+```
+Mensagem do usuário
+    ↓
+Gera embedding da pergunta
+    ↓
+Busca vetorial no ChromaDB (top 3 chunks mais similares)
+    ↓
+Combina contexto + pergunta
+    ↓
+Gemini gera resposta baseada no contexto
+```
 
-### 3. Busca de Produtos
-- Extração inteligente de parâmetros (produto, preço máximo)
-- Tradução PT→EN automática
-- Busca em múltiplas APIs (DummyJSON + FakeStore)
-- Conversão de moeda USD→BRL
-- Fallback para termos genéricos
+#### 3. **Busca de Produtos**
+```
+"Quero um notebook até R$ 3000"
+    ↓
+Extrai: produto="notebook", max_price=3000
+    ↓
+Traduz: "notebook" → "laptop"
+    ↓
+Busca em APIs (DummyJSON + FakeStore)
+    ↓
+Converte USD → BRL
+    ↓
+Retorna produtos formatados
+```
+
+---
 
 ## 🛠️ Instalação
 
 ### Pré-requisitos
 - **Python 3.10+**
 - **Node.js 18+** e npm/yarn/pnpm
-- Conta na **OpenAI** ou **Anthropic** (para API key)
+- Conta no **Google AI Studio** (para Gemini API key - gratuita!)
 
-### 1️⃣ Backend (FastAPI)
+### 1️⃣ Clone o Repositório
+```bash
+git clone https://github.com/RodrigoAraujo12/ecommerce-chatbot-ai.git
+cd ecommerce-chatbot-ai
+```
+
+### 2️⃣ Backend (FastAPI)
 
 ```bash
 # Navegar para a pasta do backend
@@ -154,6 +281,23 @@ pnpm dev
 
 Frontend rodando em: **http://localhost:3000**
 
+---
+
+## 📸 Demonstração
+
+> **📝 Nota:** Screenshots serão adicionadas em breve! Confira a pasta `screenshots/` para as imagens do projeto.
+
+### Interface Principal
+*Em breve*
+
+### Busca de Produtos
+*Em breve*
+
+### Dark Mode
+*Em breve*
+
+---
+
 ## 🔑 Configuração de API Keys
 
 ### Google Gemini (Gratuito!)
@@ -187,53 +331,60 @@ npm run dev
 
 4. **Converse** com o chatbot!
 
-## 🎨 Próximos Passos
+---
 
-### Implementações Pendentes
+## 🎨 Próximas Funcionalidades
 
-- [ ] Conectar com APIs de e-commerce (Shopify, WooCommerce)
-- [ ] Adicionar autenticação de usuários
-- [ ] Features Implementadas
-
-### ✅ Concluído
-- [x] Chat conversacional com Gemini AI
-- [x] RAG com ChromaDB e embeddings multilíngues
-- [x] Busca inteligente de produtos
-- [x] Detecção de intenção conversacional
-- [x] Extração automática de parâmetros (produto, preço)
-- [x] Interface com glassmorphism e dark mode
-- [x] Chips de sugestões interativos
-- [x] Cards de produtos modernos
-- [x] Animações e transições suaves
-- [x] Timestamps nas mensagens
-- [x] Auto-scroll do chat
-- [x] Temperatura otimizada (0.2) para precisão
-- [x] Tradução PT→EN automática
-- [x] Fallback de busca (específico → genérico)
-- [x] Tratamento de erros robusto
-
-
-## 📧 Contato
-
-Dúvidas? Abra uma issue ou entre em contato.
+- [ ] 🔐 Autenticação de usuários
+- [ ] 📊 Dashboard de analytics
+- [ ] 💾 Histórico de conversas persistente
+- [ ] 🌍 Múltiplos idiomas (internacionalização)
+- [ ] 📧 Integração com email para notificações
+- [ ] 🎯 Recomendações personalizadas
+- [ ] 🤝 Integração com CRMs (HubSpot, Salesforce)
+- [ ] 📱 App mobile (React Native)
+- [ ] 🧪 Testes unitários e E2E
+- [ ] 🚀 Deploy em produção (Vercel + Railway)
 
 ---
 
-**Contribuições são bem-vindas! Sinta-se à vontade para:**
+## 🤝 Contribuindo
 
-- Reportar bugs
-- Sugerir features
-- Enviar pull requests
+Contribuições são bem-vindas! Sinta-se à vontade para:
+
+1. Fork o projeto
+2. Crie uma branch (`git checkout -b feature/NovaFuncionalidade`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
+5. Abra um Pull Request
+
+---
 
 ## 📄 Licença
 
-MIT License - use como quiser!
-
-## 🙏 Agradecimentos
-
-- Google Gemini API
-- ChromaDB
-- Shadcn/ui
-- DummyJSON & FakeStoreAPI
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
+
+## 👨‍💻 Autor
+
+**Rodrigo Araújo**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RodrigoAraujo12)
+
+---
+
+## ⭐ Apoie o Projeto
+
+Se este projeto foi útil para você, considere dar uma ⭐ no repositório!
+
+---
+
+<div align="center">
+
+**Desenvolvido com ❤️ usando IA**
+
+*Powered by Google Gemini AI*
+
+</div>
