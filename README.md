@@ -288,13 +288,13 @@ Frontend rodando em: **http://localhost:3000**
 > **📝 Nota:** Screenshots serão adicionadas em breve! Confira a pasta `screenshots/` para as imagens do projeto.
 
 ### Interface Principal
-*Em breve*
+![Interface](screenshots/tela_ini_chat.png)
 
 ### Busca de Produtos
-*Em breve*
+![Nome da imagem](screenshots/nome-do-arquivo.png)
 
 ### Dark Mode
-*Em breve*
+![Nome da imagem](screenshots/nome-do-arquivo.png)
 
 ---
 
